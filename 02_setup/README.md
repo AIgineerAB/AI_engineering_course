@@ -3,7 +3,7 @@
 If you don't have the packages installed in your virtual environment, use uv to install them for example 
 
 ```py
-uv pip install pandas ipykernel scikit-learn # more packages ...
+uv pip install pandas ipykernel scikit-learn # more packages later on ...
 ```
 
 Remember that you need to activate the environment first 
