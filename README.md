@@ -22,7 +22,7 @@ TODO: order in weak 4-7 not finalized yet
 
 | **Week** | **Content**                                                             | **Lectures** | **Exercise** |
 | -------- | ----------------------------------------------------------------------- | ------------ | ------------ |
-| 1        | pandas repetition, AI intro, AI history, setup, sklearn, ml, regression | a1, 00-03    | 0-1          |
+| 1        | pandas repetition, AI intro, AI history, setup, sklearn, ml, regression | a1, 00-03    | 0,1          |
 | 2        | ml, classification,                                                     | 04-05        | 1,2          |
 | 3        | pydantic, data validation, oop for data                                 | 06-07        | 3            |
 | 4        | PydanticAI fundamentals, chatbot                                        | 08           | 4            |
