@@ -22,11 +22,11 @@ TODO: order in weak 4-7 not finalized yet
 
 | **Week** | **Content**                                                             | **Lectures** | **Exercise** |
 | -------- | ----------------------------------------------------------------------- | ------------ | ------------ |
-| 1        | pandas repetition, AI intro, AI history, setup, sklearn, ml, regression | a1, 00-03    | 0            |
-| 2        | ml, classification,                                                     | 04-05        | 1            |
-| 3        | pydantic, data validation, oop for data                                 | 06-07        | 2            |
-| 4        | PydanticAI fundamentals, chatbot                                        | 08           | 3            |
-| 5        | PydanticAI, rags                                                        | 09-10        |              |
+| 1        | pandas repetition, AI intro, AI history, setup, sklearn, ml, regression | a1, 00-03    | 0-1          |
+| 2        | ml, classification,                                                     | 04-05        | 1,2          |
+| 3        | pydantic, data validation, oop for data                                 | 06-07        | 3            |
+| 4        | PydanticAI fundamentals, chatbot                                        | 08           | 4            |
+| 5        | PydanticAI, rags                                                        | 09-10        | 5            |
 | 6        | fastapi basics, fastapi serve data                                      | 11-12        | lab          |
 | 7        | fastapi serve ml                                                        | 13           | lab          |
 | 8        |                                                                         |              | lab          |
@@ -35,8 +35,8 @@ TODO: order in weak 4-7 not finalized yet
 
 | **Week** | **Content**                    | **Lectures** | **Exercise** |
 | -------- | ------------------------------ | ------------ | ------------ |
-| 9        | AI agents                      | 00-04        |              |
-| 10       | AI agents                      |              |              |
+| 9        | AI agents                      | 14           | 6            |
+| 10       | AI agents                      | 15           |              |
 | 11       | fastapi deploy azure functions |              | project      |
 | 12       | docker, deploy azure web apps  |              | project      |
 | 13       |                                |              | project      |
