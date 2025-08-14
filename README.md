@@ -16,19 +16,17 @@ For this you will be using the following tools:
 
 Prerequisites for this course are:
 
-TODO: order in weak 4-7 not finalized yet
-
 **Part 1**
 
 | **Week** | **Content**                                                             | **Lectures** | **Exercise** |
 | -------- | ----------------------------------------------------------------------- | ------------ | ------------ |
 | 1        | pandas repetition, AI intro, AI history, setup, sklearn, ml, regression | a1, 00-03    | 0,1          |
-| 2        | ml, classification,                                                     | 04-05        | 1,2          |
-| 3        | pydantic, data validation, oop for data                                 | 06-07        | 3            |
-| 4        | PydanticAI fundamentals, chatbot                                        | 08           | 4            |
-| 5        | PydanticAI, rags                                                        | 09-10        | 5            |
-| 6        | fastapi basics, fastapi serve data                                      | 11-12        | lab          |
-| 7        | fastapi serve ml                                                        | 13           | lab          |
+| 2        | ml, classification, logistic regression, knn                            | 04-05        | 1,2          |
+| 3        | random forest, pydantic, data validation, oop for data                  | 06-07        | 3            |
+| 4        | fastapi basics, fastapi serve data                                      | 08-09        | 4            |
+| 5        | fastapi serve ml, PydanticAI fundamentals                               | 10-11        | 5            |
+| 6        | PydanticAI chatbot                                                      | 12,          | lab          |
+| 7        | vector database, PydanticAI, rags                                       | 13-14        | lab          |
 | 8        |                                                                         |              | lab          |
 
 **Part 2**
