@@ -25,17 +25,17 @@ Prerequisites for this course are:
 | 3        | random forest, pydantic, data validation, oop for data                  | 06-07        | 3            |
 | 4        | fastapi basics, fastapi serve data                                      | 08-09        | 4            |
 | 5        | fastapi serve ml, PydanticAI fundamentals                               | 10-11        | 5            |
-| 6        | PydanticAI chatbot                                                      | 12,          | lab          |
-| 7        | vector database, PydanticAI, rags                                       | 13-14        | lab          |
+| 6        | PydanticAI chatbot                                                      | 12-13        | lab          |
+| 7        | vector database, lancedb, PydanticAI, rags                              | 14-15        | lab          |
 | 8        |                                                                         |              | lab          |
 
 **Part 2**
 
-| **Week** | **Content**                    | **Lectures** | **Exercise** |
-| -------- | ------------------------------ | ------------ | ------------ |
-| 9        | AI agents                      | 14           | 6            |
-| 10       | AI agents                      | 15           |              |
-| 11       | fastapi deploy azure functions |              | project      |
-| 12       | docker, deploy azure web apps  |              | project      |
-| 13       |                                |              | project      |
-| 14       |                                |              | project      |
+| **Week** | **Content**                                                  | **Lectures** | **Exercise** |
+| -------- | ------------------------------------------------------------ | ------------ | ------------ |
+| 9        | AI agents                                                    | 16           | 6            |
+| 10       | AI agents                                                    | 17           |              |
+| 11       | cloud computing, azure intro, fastapi deploy azure functions | 18-19        | project      |
+| 12       | docker, deploy azure web apps                                | 20-21        | project      |
+| 13       |                                                              |              | project      |
+| 14       |                                                              |              | project      |
