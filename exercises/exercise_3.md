@@ -2,19 +2,19 @@
 
 In this exercise, you get to work with data validation using pydantic v2
 
-## 0.
+## 0. Simulate a small company 
 
-a)
+a) Connect python to gemini, very important that you place the api key in .env and gitignore it 
 
-b)
+b) Use gemini to simulate 100 data points in json format containing the following fields: first_name, last_name, phone_number, email, department, salary, title  
 
-c)
+c) Now use pydantic to validate this json and put in proper schema that the fields should follow 
 
-d)
+d) Write this json data to a folder called output_data 
 
-e)
+e) Use pandas to read the data as dataframe
 
-f)
+f) Write a csv file to your output_data
 
 ## 1.
 
