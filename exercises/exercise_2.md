@@ -35,9 +35,17 @@ where $Q_1$ is the 1st quartile or 25 percentile, $Q_3$ is the 3rd quartile or 7
 
 ---
 
-if you have time over and want to explore some simple image processing do exercise 1.
+## 1. Random forest for classification and regression
 
-## 1. MNIST data (\*)
+a) Use random forest to classify the iris dataset and evaluate afterwards
+
+b) Use random forest to predict house prices for the dataset you used in exercise1 
+
+--- 
+
+if you have time over and want to explore some simple image processing do this exercise.
+
+## 2. MNIST data (\*)
 
 In the whole exercise, we will work with the famous MNIST dataset. Start by installing `tensorflow` to your virtual environment if you haven't already. Import `keras` from tensorflow and load the dataset using `keras.mnist.load_data()`.
 
