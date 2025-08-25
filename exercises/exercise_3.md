@@ -2,6 +2,8 @@
 
 In this exercise, you get to work with data validation using pydantic v2
 
+## NOT DONE YET
+
 ## 0. Simulate a small company 
 
 a) Connect python to gemini, very important that you place the api key in .env and gitignore it 
