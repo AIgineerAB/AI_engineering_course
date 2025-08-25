@@ -31,11 +31,18 @@ where $Q_1$ is the 1st quartile or 25 percentile, $Q_3$ is the 3rd quartile or 7
 
 &nbsp; i) Classify the first 10 values of your $X_{test}$ and compare it manually with your labels.
 
-&nbsp; j) Evaluate your model using classification report and confusion matrix. Use elbow plot to choose an appropriate K.
+&nbsp; j) Evaluate your model using classification report and confusion matrix. 
 
 ---
 
-## 1. Random forest for classification and regression
+## 1. KNN for classification and regression
+
+a) Use KNN to classify iris dataset 
+
+b) Use random forest to predict house prices for the dataset you used in exercise1 
+
+
+## 2. Random forest for classification and regression
 
 a) Use random forest to classify the iris dataset and evaluate afterwards
 
@@ -43,9 +50,15 @@ b) Use random forest to predict house prices for the dataset you used in exercis
 
 --- 
 
+## 3. Implement your own KNN 
+
+Check out exercise pikachu_pichu under the folder extra. This is quite good exercise to do to understand how KNN works and to learn how to work without libraries such as scikit-learn. I usually give out this exercise as a lab for the first python course for data science. 
+
+
+---
 if you have time over and want to explore some simple image processing do this exercise.
 
-## 2. MNIST data (\*)
+## 4. MNIST data (\*)
 
 In the whole exercise, we will work with the famous MNIST dataset. Start by installing `tensorflow` to your virtual environment if you haven't already. Import `keras` from tensorflow and load the dataset using `keras.mnist.load_data()`.
 
