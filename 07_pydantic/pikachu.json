@@ -1,0 +1,14 @@
+{
+   "id": 25,
+   "name": "pikachu",
+   "base_happiness": 70,
+   "capture_rate": 190,
+   "evolution_chain": {
+      "url": "https://pokeapi.co/api/v2/evolution-chain/10/"
+   },
+   "gender_rate": 4,
+   "generation": {
+      "name": "generation-i",
+      "url": "https://pokeapi.co/api/v2/generation/1/"
+   }
+}
