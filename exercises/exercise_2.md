@@ -39,7 +39,7 @@ where $Q_1$ is the 1st quartile or 25 percentile, $Q_3$ is the 3rd quartile or 7
 
 a) Use KNN to classify iris dataset 
 
-b) Use random forest to predict house prices for the dataset you used in exercise1 
+b) Use KNN to predict house prices for the dataset you used in exercise1 
 
 
 ## 2. Random forest for classification and regression
