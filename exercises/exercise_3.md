@@ -14,10 +14,42 @@ b) Create a BaseModel for a Person with the fields name, age, email, favourite p
 
 c) Use normal python class to replicate what you have created in b), i.e. create a Person class with proper input validation. 
 
-d) 
+## 1. Validate data from API using Pydantic
+
+Use this code snippet to get a random dad joke 
+
+```py
+import requests
+
+headers = {"Accept": "application/json"}
+response = requests.get("https://icanhazdadjoke.com/", headers=headers)
+
+print(response.json())
+```
+
+a) Create a Pydantic model with name Joke with the following fields 
+
+- id with type integer  
+- joke with type string
+
+b) Validate the data from the API using the Joke model. Test out your Joke instance to see that you can access the joke and id fields. 
+
+c) Now create a new Joke Pydantic model that also have the field words_in_joke. This is a computed field and a property so you will need to decorate your method like this 
+
+```py   
+    @computed_field
+    @property
+    def words_in_joke(self) -> int:
+        """returns number of words in the joke"""
+```
+
+Note that computed_field is imported from pydantic. Validate a random joke with your new Joke model.
+
+d) Request 10 jokes from the api and validate them into many Jokes instances that you store into a list. Make sure to use sleep for 5 seconds to not request from the API too much. 
 
 
-## 1. Simulate a small company 
+
+## 2. Simulate a small company 
 
 a) Connect python to gemini, very important that you place the api key in .env and gitignore it 
 
@@ -33,12 +65,12 @@ f) Write a csv file to your output_data
 
 g) Use python to create a duckdb database with a staging layer and store this into a table called small_company. 
 
-h) Use gemini to simulate departments data. There should be same departments as those you had in b). Also add a description field and a contact person. 
+h) Use gemini to simulate departments data. There should be same departments as those you had in task b. Also add a description field and a contact person. 
 
 i) Add a departments table in your duckdb database under staging layer to store this data. 
 
 
-## 1.
+## 3.
 
 a)
 
@@ -52,7 +84,7 @@ e)
 
 f)
 
-## 2. Theory questions
+## 4. Theory questions
 
 a)
 
