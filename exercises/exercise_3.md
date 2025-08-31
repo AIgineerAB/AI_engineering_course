@@ -70,19 +70,25 @@ h) Use gemini to simulate departments data. There should be same departments as 
 i) Add a departments table in your duckdb database under staging layer to store this data. 
 
 
-## 3. 
+## 3. A grading assistant
 
-a)
+Teachers in general have a lot of administrations to do and one of those things is grading. Can we create a simple grade assistant to assist a Swedish teacher in grading? This exercise focuses a lot in prompt engineering and afterwards to postprocess the output using Pydantic. 
 
-b)
 
-c)
+a) Go into this page with examples of students answers to a particular question. Copy some example texts and paste it into files with names like `student_text_1.txt`, `student_text_2.txt`.
 
-d)
+b) Read these data into python and tell your LLM to grade them.
 
-e)
+c) Prompt to get an output of fields proposed_grade, motivation and improvements.
 
-f)
+d) Now validate this with pydantic model 
+
+e) Output a folder with the following txt files: proposed_grade.txt, motivation.txt and improvements.txt
+
+f) Go [into skolverket for Svenska 1](https://www.skolverket.se/undervisning/gymnasieskolan/program-och-amnen-i-gymnasieskolan/hitta-program-amnen-och-kurser-i-gymnasieskolan-gy11/amne?url=907561864%2Fsyllabuscw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DSVE%26version%3D8%26tos%3Dgy&sv.url=12.5dfee44715d35a5cdfa92a3) and copy "Betygskriterier" for "Svenska 1". These are the criterias for the different grades. Paste this into a file called `criterias.txt`.
+
+g) Now repeat b)-e) but with the criterias in your prompt as well. Can you see any differences in the outputs?
+
 
 ## 4. Theory questions
 
