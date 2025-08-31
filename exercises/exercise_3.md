@@ -53,24 +53,24 @@ d) Request 10 jokes from the api and validate them into many Jokes instances tha
 
 a) Connect python to gemini, very important that you place the api key in .env and gitignore it 
 
-b) Use gemini to simulate 100 data points in json format containing the following fields: first_name, last_name, phone_number, email, department, salary, title. See if you can prompt to direct the LLM output to have swedish names, phone numbers in swedish format (+46 731 29 52), departments (IT, HR, marketing, sales), reasonable salary (you might need to check some swedish statistics on salaries) and corresponding titles within these departments. 
+b) Use gemini to simulate 20 data points in json format containing the following fields: first_name, last_name, phone_number, email, department, salary, title. See if you can prompt to direct the LLM output to have swedish names, phone numbers in swedish format (+46 731 29 52), departments (IT, HR, marketing, sales), reasonable salary (you might need to check some swedish statistics on salaries) and corresponding titles within these departments. 
 
-c) Now use pydantic to validate this json and put in proper schema that the fields should follow 
+c) Now use pydantic to validate this json and put in proper schema that the fields should follow. You might need to do some processing such as removing backticks and maybe loading json data into a list with `json.loads()`. Also make sure that only correctly validated data should be stored. 
 
-d) Write this json data to a folder called output_data 
+d) Write this json data to a folder called output_data. 
 
 e) Use pandas to read the data as dataframe
 
 f) Write a csv file to your output_data
 
-g) Use python to create a duckdb database with a staging layer and store this into a table called small_company. 
+g) Load this data into a staging layer and store this into a table called employees. 
 
 h) Use gemini to simulate departments data. There should be same departments as those you had in task b. Also add a description field and a contact person. 
 
 i) Add a departments table in your duckdb database under staging layer to store this data. 
 
 
-## 3.
+## 3. 
 
 a)
 
