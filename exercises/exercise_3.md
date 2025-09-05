@@ -69,7 +69,7 @@ i) Add a departments table in your duckdb database under staging layer to store 
 
 Teachers in general have a lot of administrations to do and one of those things is grading. Can we create a simple grade assistant to assist a Swedish teacher in grading? This exercise focuses a lot in prompt engineering and afterwards to postprocess the output using Pydantic.
 
-a) Go into this page with examples of students answers to a particular question. Copy some example texts and paste it into files with names like `student_text_1.txt`, `student_text_2.txt`.
+a) [Go into this page with examples of students answers](https://www.uu.se/download/18.11971c6f1989761a6625867/1755009079925/Svsva%20Niv%C3%A5%201%20Del%20C%20Resonerande%20uppgift,%20matris,%20analys.pdf) to a particular question. Copy some example texts and paste it into files with names like `student_text_1.txt`, `student_text_2.txt`.
 
 b) Read these data into python and tell your LLM to grade them.
 
