@@ -1,8 +1,11 @@
-# Using pydantic in FastAPI to validate data
+# Using pydantic in FastAPI to build a CRUD API
 
+VIDEO coming soon 
+
+<!-- 
 <a href="https://youtu.be/yeRYOJyi7_c" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/python_videos/pydantic.png?raw=true" alt="pydantic for data validation" width="600">
-</a>
+</a> -->
 
 
 We will create a CRUD app in this lecture with 
