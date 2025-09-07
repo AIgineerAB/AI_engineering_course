@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "word": "path parameter",
+    "meaning": "Request parameters embedded in the URL path to identify a resource (variable part of the endpoint path). Example: /users/{user_id}."
+  },
+  {
+    "id": 2,
+    "word": "endpoint (route)",
+    "meaning": "A URL path in the API that accepts HTTP requests (e.g., /items, /users/{id})."
+  },
+  {
+    "id": 3,
+    "word": "query parameter",
+    "meaning": "Additional key–value pairs after ? in the URL, used for filtering or searching."
+  },
+  {
+    "id": 4,
+    "word": "request body",
+    "meaning": "Data sent with POST/PUT/PATCH requests, usually JSON."
+  },
+  {
+    "id": 5,
+    "word": "uvicorn",
+    "meaning": "ASGI web server used to run FastAPI apps. Command: uvicorn main:app"
+  },
+  {
+    "id": 6,
+    "word": "%20",
+    "meaning": "URL-encoded space character used in URL paths and query strings."
+  },
+  {
+    "id": 7,
+    "word": "Field (pydantic)",
+    "meaning": "Function to add metadata and validation constraints to model fields (defaults, rules, descriptions, etc.)."
+  },
+  {
+    "id": 8,
+    "word": "DTO",
+    "meaning": "Data Transfer Object—an object that carries data between processes (e.g., client to server via an API)."
+  },
+  {
+    "id": 9,
+    "word": "client",
+    "meaning": "Program or device that makes requests to a server (e.g., a browser sending HTTP requests and handling responses)."
+  },
+  {
+    "id": 10,
+    "word": "schema",
+    "meaning": "Structured blueprint defining data organization, types, and rules; a contract for predictable data."
+  },
+  {
+    "id": 11,
+    "word": "Depends()",
+    "meaning": "FastAPI dependency injection tool to provide request-ready objects to route handlers."
+  },
+  {
+    "id": 12,
+    "word": "payload",
+    "meaning": "The actual data carried in an API request or response."
+  },
+  {
+    "id": 13,
+    "word": "field_validator (pydantic)",
+    "meaning": "Custom function for per-field validation beyond basic type checks."
+  },
+  {
+    "id": 14,
+    "word": "model_validator",
+    "meaning": "Validator that runs on the entire model, with access to multiple fields at once."
+  }
+]
