@@ -16,10 +16,43 @@ d) Test out your API in Swagger UI.
 
 e) Test out your API using requests inside of a Jupyter notebook or a separate Python script. Try the different request types.
 
+## 1. Serve MYH data 
 
-## 1.
+Go into this page in [Myndigheten för yrkeshögskola (MYH)](https://www.myh.se/yrkeshogskolan/resultat-ansokningsomgangar/resultat-for-program) and download Resultat ansökningsomgång 2024. 
 
-a)
+> [!NOTE]
+> This dataset is in Swedish
+
+We will in this exercise create an API to serve this dataset for downstream users. 
+
+a) Start with doing EDA on this dataset in a Jupyter notebook. Especially on "Tabell 3". 
+
+b) Make an API endpoint where you serve table 3 in JSON format for a read operation. 
+
+c) Make endpoints where you could filter out a particular school.
+
+d) Make endpoints where you could filter out a particular field. 
+
+e) Make endpoint for approved (beviljad) and one for not approved (avslag).
+
+f) Make an endpoint for some KPIs that you think is interesting for a particular stakeholder in mind. 
+
+g) What else do you want to be able to serve? 
+
+
+
+ 
+
+
+
+
+
+
+## 2. FastAPI mpg  
+
+In this exercise 
+
+a) 
 
 ## 2. Simulate a small company
 
