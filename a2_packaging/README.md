@@ -18,7 +18,7 @@ This is the structure of the files that we'll be packaging
 ├── README.md
 ├── setup.py
 └── src
-    └── taxiapp
+    └── taxipred
         ├── __init__.py
         ├── backend
         │   ├── __init__.py
@@ -35,7 +35,19 @@ This is the structure of the files that we'll be packaging
             └── helpers.py
 ```
 
+In order to install this package which is defined in setup.py script you need to start installing setuptools 
 
+```bash
+uv pip install setuptools
+```
+
+Afterwards you should navigate to same folder as setup.py and then run 
+
+```bash
+uv pip install -e .
+```
+
+-e makes it editable so that you don't need to reinstall everytime you change the source code. 
 
 
 ## Read more
