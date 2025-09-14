@@ -16,6 +16,13 @@
   <img src="https://github.com/kokchun/assets/blob/main/ai_engineering/pydantic_llm.png?raw=true" alt="pydantic for data validation" width="600">
 </a>
 
+**part 3 - pydantic with gemini llm - a more robust way**
+
+
+<a href="https://youtu.be/7DCFHwe3wI8" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/ai_engineering/pydantic_gemini.png?raw=true" alt="pydantic for data validation" width="600">
+</a>
+
 
 
 
