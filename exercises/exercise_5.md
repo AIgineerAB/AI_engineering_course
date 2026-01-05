@@ -31,7 +31,7 @@ Add a post endpoint to 08_fast_api_crud that can take a natural language prompt,
 
 Create a frontend for movies example in 11b.
 
-## 3. Theory questions
+## Theory questions
 
 a) What problem does PydanticAI solve when using LLMs?
 
