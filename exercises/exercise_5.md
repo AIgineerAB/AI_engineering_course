@@ -20,19 +20,28 @@ It's okay if your model is making up a restaurant that doesn't exist
 
 Now make a fastapi with a post endpoint in natural language to prompt for a location and what type of food. Based on these it should generate a restaurant and store it in a duckdb database.
 
-Also implement a get endpoint for showing all restaurants in the database.
+Also implement a get endpoint for showing all restaurants in the database. Implement a simple frontend for this application.
 
 ## 2. Extend Books API
 
 Add a post endpoint to 08_fast_api_crud that can take a natural language prompt, which will create a new book.
 
+
+## 3. Frontend for movies example
+
+Create a frontend for movies example in 11b.
+
 ## 3. Theory questions
 
 a) What problem does PydanticAI solve when using LLMs?
 
-b) How can FastAPI be used to serve PydanticAI? Give an example
+b) Why is schema validation critical in LLM-based systems?
 
-c) Why is PydanticAI’s validated output better than plain-text LLM responses?
+c) What risks exist if retries are unlimited?
+
+d) How can FastAPI be used to serve PydanticAI? Give an example
+
+e) Why is PydanticAI’s validated output better than plain-text LLM responses?
 
 ## Glossary
 
@@ -47,9 +56,12 @@ Fill in this table either by copying this into your own markdown file or copy it
 | request body         |             |
 | response model       |             |
 | pydantic model       |             |
-| agent                |             |
+| Agent                |             |
 | output_type          |             |
-|                      |             |
-|                      |             |
-|                      |             |
+| model                |             |
+| run                  |             |
+| system prompt        |             |
+| retry loop           |             |
+| tool call            |             |
+| messages             |             |
 |                      |             |
