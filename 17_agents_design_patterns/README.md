@@ -6,6 +6,6 @@
 
 
 ## Read more
-- [pydantic docs](https://docs.pydantic.dev/latest/)
+- [Multi-agent design pattern - ](https://microsoft.github.io/ai-agents-for-beginners/08-multi-agent/)
 
 ## Other videos
