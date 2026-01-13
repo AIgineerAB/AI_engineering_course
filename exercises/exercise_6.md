@@ -20,6 +20,8 @@ e) something else of your choice
 
 In order to make a chatbot have long-term memory we will need to have documents stored in a vector database which can do matching between queries and prompts. One such vector database is lancedb. Here we'll work with lancedb to learn the tool.
 
+Note that these articles are from wikipedia
+
 a) There are 6 articles in [data](https://github.com/AIgineerAB/AI_engineering_course/tree/main/exercises/data). Download these and ingest them into lancedb. Embed these articles as well using gemini embedding.
 
 b) Now type in a few questions and embed these, then do vector search to find the most relevant articles
