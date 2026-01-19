@@ -3,7 +3,6 @@ from chat import JokeBot
 
 
 def init_session_states():
-    # initialize chat history
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
@@ -18,8 +17,7 @@ def display_chat_messages():
 
 
 def handle_user_input():
-
-    if prompt := st.chat_input("Talk to the JokeBot"):
+    if prompt := st.chat_input("Talk to the Ro Båt"):
         st.session_state.messages.append({"role": "user", "content": prompt})
 
         bot_response = st.session_state.bot.chat(prompt).get("bot")
@@ -37,7 +35,7 @@ def handle_user_input():
 def layout():
     st.markdown("# Chat with Ro Båt")
     st.write(
-        "RO BÅT is a funny robot that can help you out with programming tasks. However he doesn't directly answer your question, usually he asks another question back."
+        "RO BÅT is a funny robot that will joke with programming jokes. He is a real nerd"
     )
 
     display_chat_messages()
