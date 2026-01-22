@@ -1,0 +1,17 @@
+[project]
+name = "a3-packaging"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "kokchun", email = "kokchungiang@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+a3-packaging = "a3_packaging:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
