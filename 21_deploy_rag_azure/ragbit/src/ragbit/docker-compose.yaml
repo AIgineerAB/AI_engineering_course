@@ -1,0 +1,25 @@
+services:
+  backend:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:80"
+    env_file:
+      - .env
+    image: ragbit-hrgvgrfregg4g6b0.azurecr.io/ragbit-backend:latest
+  
+  frontend:
+    platform: linux/amd64 # for mac arm chips
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+    environment:
+      # - API_URL=http://backend
+      - API_URL=https://ragbit-backend.kindgrass-d3ab2acf.swedencentral.azurecontainerapps.io/
+    image: ragbit-hrgvgrfregg4g6b0.azurecr.io/ragbit-frontend:latest

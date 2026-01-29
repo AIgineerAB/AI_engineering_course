@@ -1,0 +1,19 @@
+[project]
+name = "ragbit"
+version = "0.1.0"
+description = "packaging ragbit and using uv workspaces"
+readme = "README.md"
+authors = [
+    { name = "kokchun", email = "kokchungiang@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = ["backend", "frontend"]
+
+[tool.uv.sources]
+backend = {workspace = true}
+frontend = {workspace = true}
+
+[tool.uv.workspace]
+members = ["src/ragbit/frontend", "src/ragbit/backend"]
+
+

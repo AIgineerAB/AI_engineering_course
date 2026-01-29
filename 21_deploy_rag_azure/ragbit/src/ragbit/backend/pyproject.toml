@@ -1,0 +1,9 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "backend for ragbit"
+requires-python = ">=3.13"
+dependencies = ["lancedb", "pydantic-ai", "fastapi", "uvicorn", "google-genai", "google-generativeai"]
+
+
+
